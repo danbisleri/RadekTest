@@ -8,7 +8,7 @@ ALUNO : with para montar uma tabela fake a ser consultada listando as notas e os
 <br>
 ANIMAIS : with para montar uma tabela fake, Distict do nome de duas tabelas em UNION 
 <br>
-CONCATANDREMOVE : tranforma uma string em outra com numero limite de movimentos por char.
+CONCATANDREMOVE : tranforma uma string em outra com numero limite de movimentos por caracteres.
 <br>
 COUNTCHARINSTRING : retorna o tamanho da frase ou palavra em numero de caracteres.
 <br>
