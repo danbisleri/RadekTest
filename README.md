@@ -21,11 +21,13 @@ Ambas apresentam a mesma nota, porém não estava ordenando alfabeticamente pelo
 Utilizado union all para ordenar as notas maiores ou igual a 8 decrescente e outro select para order as notas menores que 8 crescentes.
  
 <br>
+<br>
 Distinct de Nome de Animais:
 <br>
 Da mesma forma que a anterior, para teste, criei um with com duas tabelas fakes, dogs e cats.
 No select foi utilizado um Union, com o select para cada e um select externo com o distict do nome.
 
+<br>
 <br>
 Concatenar e Remover:
 <br>
@@ -36,6 +38,7 @@ Para cada movimento de adição, é adicionado um movimento ao controle.
 Assim, quando a string controle for igual a final, e o número de movimentos efetuados for menor que o indicado, retorna Sim, caso contrário retorna não.
 
 <br>
+<br>
 Contador de Caracteres:
 <br>
 Transformado a string em vetor, após é executado um loop sobre este vetor.
@@ -43,6 +46,7 @@ Quando não conseguir carregar a informação, via try catch, é que o vetor aca
 Retornado com a quantidade de caracteres que o loop conseguiu carregar. 
 Podendo ler todos os caracteres presentes em uma frase ou palavra.
 
+<br>
 <br>
 FooBar:
 <br>
