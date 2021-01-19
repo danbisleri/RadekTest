@@ -23,8 +23,7 @@ WITH
        UNION
        SELECT 11, 'Daiane', 81, 9 FROM DUAL)
 SELECT *
-  FROM (  SELECT id
-               , CASE WHEN nota >= 8 THEN nome ELSE 'NULL' END Nome
+  FROM (  SELECT CASE WHEN nota >= 8 THEN nome ELSE 'NULL' END Nome
                , nota
                , valor
             FROM ALUNO
@@ -33,8 +32,7 @@ SELECT *
                , nome ASC)
 UNION ALL
 SELECT *
-  FROM (  SELECT id
-               , 'NULL' Nome
+  FROM (  SELECT 'NULL' Nome
                , nota
                , valor
             FROM ALUNO
